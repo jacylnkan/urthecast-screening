@@ -5,9 +5,9 @@ def merge_list(orig, to_add, to_del):
     in reverse alphabetical order.
 
     Args:
-        orig (list): Original list
-        to_add (list): List to add to original list
-        to_del (list): List of elements to remove from resulting list
+        orig (list): Original list of strings.
+        to_add (list): List of strings to add to original list
+        to_del (list): List of strings to remove from resulting list
 
     Returns:
         list: List sorted according to problem description.
